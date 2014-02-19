@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="ico/favicon.ico">
 
-    <title>muckrake | trap detail</title>
+    <title>muckrake | unknown trap detail</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -41,7 +41,7 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li><a href="#">Traps</a></li>
+            <li><a href="./">Traps</a></li>
             <li class="active"><a href="unknown.php">Unknown Traps</a></li>
           </ul>
             <form class="navbar-form navbar-right" role="search" method="get" action="">
