@@ -7,6 +7,19 @@ function highlightWords($string,$words) {
     return $string;
 }
 
+function getTrapDetail($id) {
+    $query = "SELECT * FROM snmptt WHERE id = $id LIMIT 1";
+    $result = mysql_query($query);
+    $result = mysql_fetch_assoc($result);
+    return $result;
+}
+function getUnknownTrapDetail($id) {
+    $query = "SELECT * FROM snmptt_unknown WHERE id = $id LIMIT 1";
+    $result = mysql_query($query);
+    $result = mysql_fetch_assoc($result);
+    return $result;
+}
+
 function getTraps($where,$bool="AND",$low_limit,$high_limit) {
 
 	$where_string = implode(" $bool ", $where);

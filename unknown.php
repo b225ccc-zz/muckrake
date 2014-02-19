@@ -123,7 +123,7 @@ foreach ($traps as $item) {
         print "<td>" . nl2br($item['formatline']) . "</td>";
 
         print "<td align=right nowrap>" . $item['traptime'] . "</td>";
-        print "<td><a href=\"detail.php?id=" . $item['id'] . "\"><span class=\"glyphicon glyphicon-search\"></span></a>";
+        print "<td><a href=\"unknown_detail.php?id=" . $item['id'] . "\"><span class=\"glyphicon glyphicon-search\"></span></a>";
         print "</tr>";
         $i++;
 
