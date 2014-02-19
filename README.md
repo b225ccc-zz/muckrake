@@ -11,3 +11,6 @@ snmptt web gui
 2. Place muckrake files in a web accessible directory
 3. Update db.php w/ proper credentials and hostname.  Make sure host running muckrake has at least SELECT permissions
 4. Load index.php
+
+### screenshot
+![ScreenShot](/screenshots/muckrake_screenshot1.png)
